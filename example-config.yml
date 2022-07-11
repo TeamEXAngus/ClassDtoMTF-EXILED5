@@ -1,0 +1,18 @@
+class_dto_m_t_f:
+# Whether or not the plugin is enabled
+  is_enabled: true
+  # The role that cuffed Class-D become when they escape
+  cuffed_class_d_new_role: FacilityGuard
+  # The items given to cuffed Class-D when they escape
+  cuffed_class_d_items:
+  - KeycardNTFOfficer
+  - GunE11SR
+  - GunCOM15
+  - GrenadeFlash
+  - Radio
+  - Medkit
+  - ArmorCombat
+  # The ammo given to cuffed Class-D when they escape
+  cuffed_class_d_ammo:
+    Nato9: 30
+    Nato556: 60
